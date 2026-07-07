@@ -1,0 +1,10 @@
+# Paper publish artifacts (regenerable via site/package.sh)
+site/dist/
+site/*.zip
+
+# Editor / OS
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/

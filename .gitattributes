@@ -1,0 +1,22 @@
+# Git attributes for the repository.
+#
+# Goals:
+#   - Never let Git mangle line endings or attempt to diff/merge binary assets.
+#   - Enforce LF for text files.
+#   - Keep generated files out of language stats and collapsed in diffs.
+
+# Default: treat everything as text and normalize line endings to LF on commit.
+* text=auto eol=lf
+
+# Source and text formats
+*.html    text eol=lf
+*.css     text eol=lf
+*.sh      text eol=lf
+*.md      text eol=lf
+
+# Binary assets: never diffed, merged, or EOL-normalized.
+*.woff    binary -eol
+*.woff2   binary -eol
+
+# The paper's rendered HTML is produced by site/build.sh.
+site/the-cooperative-os.html linguist-generated
