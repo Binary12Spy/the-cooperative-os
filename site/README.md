@@ -11,11 +11,14 @@ it renders itself from plain markup. You can open it straight off disk
 
 ## Building
 
-With `pandoc` installed:
+Inside the repo dev shell (which provides `pandoc`):
 
 ```sh
-site/build.sh
+nix develop            # from the repo root
+./site/build.sh
 ```
+
+Or with `pandoc` already on your `PATH`, just run `./site/build.sh`.
 
 This writes `the-cooperative-os.html`. Re-run it whenever the Markdown changes;
 the committed HTML is a convenience copy so the page can be published without a

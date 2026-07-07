@@ -2,6 +2,12 @@
 site/dist/
 site/*.zip
 
+# Nix
+result
+result-*
+.direnv/
+.envrc
+
 # Editor / OS
 .DS_Store
 *.swp

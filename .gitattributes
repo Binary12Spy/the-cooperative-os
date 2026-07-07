@@ -13,10 +13,16 @@
 *.css     text eol=lf
 *.sh      text eol=lf
 *.md      text eol=lf
+*.nix     text eol=lf
+*.json    text eol=lf
 
 # Binary assets: never diffed, merged, or EOL-normalized.
 *.woff    binary -eol
 *.woff2   binary -eol
+
+# Generated and lock files: tracked, but collapsed in diffs and excluded from
+# language statistics.
+flake.lock  text eol=lf linguist-generated
 
 # The paper's rendered HTML is produced by site/build.sh.
 site/the-cooperative-os.html linguist-generated
