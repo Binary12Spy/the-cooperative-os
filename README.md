@@ -8,7 +8,7 @@ It is not a product, not an OS you should install, and not an attempt to replace
 
 # Start Here
 
-1. [The paper: The Cooperative OS](https://the-cooperative-os.project802.io/). The full argument: the history of multitasking, why we stopped trusting our software, and how a Yield Contract could let us trust it again. Read it as a typeset page that renders with no scripts and no runtime, or read the [source Markdown](./the-cooperative-os.md).
+1. [The paper: The Cooperative OS](https://esmith.project802.io/projects/the-cooperative-os/). The full argument: the history of multitasking, why we stopped trusting our software, and how a Yield Contract could let us trust it again. Read it as a typeset page that renders with no scripts and no runtime, or read the [source Markdown](./the-cooperative-os.md).
 2. The proof of concept (planned). The smallest thing that demonstrates the Yield Contract is real: a cooperative kernel, a certification suite, and lock-free multicore message passing. See the paper's [Proof of Concept](./the-cooperative-os.md#a-proof-of-concept) section for the milestone ladder.
 
 # Status
