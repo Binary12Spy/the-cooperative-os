@@ -1,8 +1,16 @@
-# The Cooperative OS
-*How trusting your software could make everything faster, and why we stopped.*
-
-Ethan Smith · July 2026
-
+---
+title: the-cooperative-os
+subtitle: How trusting your software could make everything faster, and why we stopped.
+date: 2026-07
+display-date: July 2026
+byline: Ethan Smith
+slug: the-cooperative-os
+summary: How trusting your software could make everything faster, and why we stopped.
+links:
+  - text: Codeberg
+    url: https://codeberg.org/binaryspy/the-cooperative-os
+  - text: GitHub
+    url: https://github.com/Binary12Spy/the-cooperative-os
 ---
 
 We expect a lot from our operating systems, today we may simultaneously have several browser tabs open, some documents open for review, a video editing program up that we're working on, and a music player going on in the background. This paper aims to work through the history of multitasking and personal computers, how we came to stop trusting our software, and exploring how we could trust it again.
